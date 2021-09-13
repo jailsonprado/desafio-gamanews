@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #faf1e0;
+}
+
+
+
+
+
+nav ul li a{
+color: #ffffff;
+text-decoration: none;
+font-size: 15px;
+margin-right: 10px;
+
+
+
+
+}
+
+a:hover{
+opacity: 0.7;
+}
+
+.logo img{
+width: 400px;
+height: 300px;
+margin-top: 40px;
+margin-right: 10px;
+}
+
+nav{
+display: flex;
+justify-content: space-around;
+align-items: center;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+background: #135F8B;
+height: 8vh;
+}
+
+
+.texto-topo{
+color: #fff;
+margin: 60px;
+margin-left: 700px;
+}
+
+.nav-list{
+list-style: none;
+display: flex;
+
+}
+
+.nav-list li{
+letter-spacing: 5px;
+margin-left: 32px;
+margin-top: 15px;
+}
+
+#home{
+  margin-top: 10px;
+  color: #ffffff;
+  display: block;
+  background: #F76C30;
+  border-radius: 15px;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  
+}
+.home-list{
+list-style: none;
+margin-right: -250px;
+margin-top: 5px;
+}
+
+.separador{
+color: #fff;
+margin-right: -400px;
+}
+
+/* Estilo de formulario */
+
+form {
+    margin: 30px auto;
+    width: 630px;
+    height: 400px;
+    padding: 70px;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    color: #fff;
+    background-color: #0000005b;
+    padding-left: 10px;
+  }
+  
+  form div + div {
+    margin-top: 15px;
+  }
+  
+  label {
+    display: flex;
+    width: 200px;
+    font-weight: 900;
+    font-size: 15px;
+    
+  }
+  
+  input, textarea {
+    font: 15px sans-serif;
+    width: 600px;
+    height: 30px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 0 auto;
+    margin-top: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #4176a1;
+  }
+  
+  textarea {
+    vertical-align: top;
+    border-radius: 15px;
+    height: 120px;
+    
+  }
+  
+  .button {
+    padding-left: 5px; 
+    padding-top: -3px;
+  }
+  
+  button {
+       background:#6930c3;
+       color:#fff;
+       border:1px solid rgba(110, 3, 172, 0.678);
+       border-radius:20px;
+       text-shadow:none;
+       width: 100px;
+       height: 30px;
+       box-shadow: 0 8px 16px 0 rgba(92, 1, 167, 0.329), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+
+  button:hover{
+    background:#3e3e4ef3;
+  }
+  
+  
