@@ -15,7 +15,9 @@ body {
 }
 
 
-
+.sobre{
+  padding: 10px;
+}
 
 
 nav ul li a{
@@ -98,6 +100,7 @@ margin-right: -400px;
     text-align: center;
     color: #333;
     position: relative;
+    margin-top: 30px;
   }
   
   .titulo::before {
@@ -177,6 +180,7 @@ margin-right: -400px;
     color: #eee;
     font-size: 1.4rem;
     transition: all 0.5s;
+    text-decoration: none;
   }
   
   .card .btn:hover {

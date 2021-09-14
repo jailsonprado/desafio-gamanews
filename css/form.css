@@ -51,9 +51,11 @@ height: 8vh;
 
 
 .texto-topo{
-color: #fff;
-margin: 60px;
-margin-left: 700px;
+color: #F76C30;
+margin: auto;
+font-size: 15px;
+margin-left: 150px;
+
 }
 
 .nav-list{
@@ -94,13 +96,14 @@ margin-right: -400px;
 form {
     margin: 30px auto;
     width: 630px;
-    height: 400px;
-    padding: 70px;
+    height: 600px;
+    padding: 15px;
     border: 1px solid #CCC;
     border-radius: 1em;
     color: #fff;
-    background-color: #0000005b;
+    background-color: #135F8B;
     padding-left: 10px;
+    margin-top: 100px;
   }
   
   form div + div {
@@ -135,28 +138,28 @@ form {
   textarea {
     vertical-align: top;
     border-radius: 15px;
-    height: 120px;
+    height: 300px;
     
   }
   
   .button {
-    padding-left: 5px; 
+    padding-left: 100px; 
     padding-top: -3px;
   }
   
   button {
-       background:#6930c3;
+       background:#F76C30;
        color:#fff;
-       border:1px solid rgba(110, 3, 172, 0.678);
+       border:1px solid rgb(255, 255, 255);
        border-radius:20px;
        text-shadow:none;
-       width: 100px;
+       width: 400px;
        height: 30px;
        box-shadow: 0 8px 16px 0 rgba(92, 1, 167, 0.329), 0 6px 20px 0 rgba(0,0,0,0.19);
   }
 
   button:hover{
-    background:#3e3e4ef3;
+    background:#f76c30e3;
   }
   
   
