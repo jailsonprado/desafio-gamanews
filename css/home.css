@@ -37,10 +37,10 @@ a:hover{
 }
 
 .logo img{
-  width: 400px;
-  height: 300px;
+  width: 350px;
+  height: 250px;
   margin-top: 40px;
-  margin-right: 10px;
+ margin-left: -200px;
 }
 
 nav{
@@ -90,4 +90,54 @@ nav{
 .separador{
   color: #fff;
   margin-right: -400px;
+}
+
+
+
+/* Estilo card Noticias */
+
+.container{
+  display: flex;
+  width: 80%;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  margin: auto ;
+  margin-top: 50px;
+  padding: 30px;
+  
+
+}
+.audio{
+  display: flex;
+  width: 80%;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  margin: auto ;
+  margin-top: 50px;
+  padding: 30px;
+  padding-bottom: 10px;
+  
+}
+.audio  .banner-audio{
+  padding-right: 400px;
+  width: auto;
+}
+.titulo{
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.texto{
+  margin-top: 20px;
+  font-size: 20px;
+  padding: 50px;
+}
+.noticia{
+  width: 700px;
+
 }
