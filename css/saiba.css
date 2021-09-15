@@ -1,0 +1,12 @@
+.container{
+    background-color: #ffff;
+    width: 80%;
+    height: 1000px;
+    display: flex;
+    
+}
+
+#titulo{
+    font-size: 40px;
+    margin-top: -900px
+}
