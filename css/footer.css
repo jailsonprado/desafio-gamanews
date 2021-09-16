@@ -92,3 +92,9 @@ ul{
     width: 100%;
 }
 }
+.logo-footer img{
+    width: 350px;
+    height: 250px;
+    margin-top: -80px;
+    margin-left: -50px;
+}
