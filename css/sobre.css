@@ -17,6 +17,7 @@ body {
 
 .sobre{
   padding: 10px;
+  height: 180px;
 }
 
 
@@ -131,6 +132,7 @@ margin-right: -400px;
     justify-content: center;
     margin: 2rem 0;
     box-shadow: 0.5rem 0.5rem 0.3rem rgba(0, 0, 0, 0.2);
+    
   }
   
   .card .card-img {
