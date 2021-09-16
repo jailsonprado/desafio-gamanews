@@ -73,6 +73,7 @@ ul{
 	border-radius: 50%;
 	color: #F76C30;
 	transition: all 0.5s ease;
+    font-size: 20px;
 }
 .footer-col .social-links a:hover{
 	color: #24262b;
