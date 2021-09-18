@@ -41,5 +41,12 @@
     margin-bottom: 100px;
 }
 
+a {
+    color: blue;
+    text-decoration: unset;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
 
 
