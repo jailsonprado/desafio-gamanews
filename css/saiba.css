@@ -3,6 +3,7 @@
     width: 80%;
     height: 1000px;
     display: flex;
+    box-shadow: black 2px 2px 5px;
     
 }
 
@@ -10,4 +11,35 @@
     font-size: 40px;
     margin-top: -900px
 }
+
+.navibar{
+    padding-left: 500px;
+    
+}
+
+#gruposp{
+    margin-bottom: 100px;
+}
+
+#grupocnn{
+    margin-bottom: 100px;
+}
+
+#grupospotify1{
+    margin-bottom: 100px;
+}
+
+#grupoab{
+    margin-bottom: 100px;
+}
+
+#grupospotify2{
+    margin-bottom: 100px;
+}
+
+#grupoebc{
+    margin-bottom: 100px;
+}
+
+
 
