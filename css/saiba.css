@@ -1,52 +1,60 @@
-.container{
-    background-color: #ffff;
-    width: 80%;
-    height: 1000px;
+#container{
     display: flex;
-    box-shadow: black 2px 2px 5px;
+    width: 80%;
+    text-align: start;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    margin: auto ;
+    margin-top: 50px;
+    padding: 30px;
+    margin-bottom: 30px;
+
     
 }
 
-#titulo{
-    font-size: 40px;
-    margin-top: -900px
+ #container h1{
+    font-size: 60px;
+    margin-top: 10px;
+    color: #F76C30;
 }
-
-.navibar{
-    padding-left: 500px;
+#container p{
+    font-size: 20px;
+    text-align: center;
+    padding-left: 50px;
     
 }
 
-#gruposp{
-    margin-bottom: 100px;
+.texto-noticia{
+    align-items: center;
+    justify-content: center;
 }
 
-#grupocnn{
-    margin-bottom: 100px;
+.fontes{
+  
+    margin-top: 80px;
+    align-items: flex-start;
+}
+.fontes a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+   text-align: center;
 }
 
-#grupospotify1{
-    margin-bottom: 100px;
-}
-
-#grupoab{
-    margin-bottom: 100px;
-}
-
-#grupospotify2{
-    margin-bottom: 100px;
-}
-
-#grupoebc{
-    margin-bottom: 100px;
-}
-
-a {
-    color: blue;
-    text-decoration: unset;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 
 }
 
+img{
+    width: 15%;
+   margin-right: 20px;
+   padding: 20px;
+
+}
 
 
