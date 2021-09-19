@@ -1,5 +1,5 @@
 function enviaEmail(){
     if (enviaEmail) {
-        alert("Email enviado");
+        alert("Email enviado-Simulação");
     } 
 }
