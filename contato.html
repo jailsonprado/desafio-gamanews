@@ -36,11 +36,11 @@
             </div>
             <div>
                 <label for="nome">Nome:</label>
-                <input type="texto" id="nome" name="nome_usuario" placeholder="Digite seu nome" onfocus="">
+                <input type="texto" id="nome" name="nome_usuario" placeholder="Digite seu nome" onfocus="" required="">
             </div>
             <div>
                 <label for="email">E-mail:</label>
-                <input type="text" name="email" placeholder="exemple@exemple.com">
+                <input type="text" name="email" placeholder="exemple@exemple.com" required="">
             </div>
            
              <!--<div>
@@ -52,7 +52,7 @@
             </div>-->
             <div>
                 <label for="texto">Mensagem:</label>
-                <textarea id="texto" name="texto_usuario" placeholder="Digite aqui sua mensagem"></textarea>
+                <textarea id="texto" name="texto_usuario" placeholder="Digite aqui sua mensagem" required=""></textarea>
             </div>
             <div class="button">
                <a href="index.html"> <button type="button" onclick="enviaEmail()">Enviar</button> </a><!--Email enviado eh fake, o alert apenas efeito visual-->
